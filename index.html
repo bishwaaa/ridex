@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>RideX | India</title>
+	
+	<!-- jQuery -->
+	<script src="vendor/jquery-3.1.1.min.js"></script>
+	<script src="vendor/jquery-ui.min.js"></script>
+
+
+	<!-- App Styles -->
+	<link rel="stylesheet" href="css/style.css" />
+	
+	<!-- Slicker -->
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<!--/. Font Awesome v5 2018 -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script> 
+
+</head>
+<body>
+	<header class="header" id="header">
+		
+		<div class="header__helper">
+			<div class="header__options">
+				<div class="mobile-nav-trigger">
+					<div class="bar"></div>
+				</div><!-- /.mobile-nav-trigger -->
+				<div class="language">
+					<p>Location</p><i class="fas fa-angle-down"></i>
+					<div class="options-dropdown dropdown-language">
+						<ul>
+							<li>
+								<a href="#" class="active">Delhi</a>
+							</li>
+							
+							<li>
+								<a href="#">Mumbai</a>
+							</li>
+							
+							<li>
+								<a href="#">kolkata</a>
+							</li>
+							
+							<li>
+								<a href="#">Hyderabad</a>
+							</li>
+							
+							<li>
+								<a href="#">Bangalore</a>
+							</li>
+						</ul>
+					</div><!-- /.options-dropdown -->
+				</div><!-- /.language -->
+				<div class="currency">
+					<p>Theme</p><i class="fas fa-angle-down"></i>
+					<div class="options-dropdown dropdown-currency">
+						<ul>
+							<li>
+								<a href="#" class="active">RideX</a>
+							</li>
+							
+							<li>
+								<a href="#">Dark</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="number">
+					Hotline: <span>1800 103 6286</span> 
+				</div><!-- /.number -->
+			</div><!-- /.header__options -->
+			<div class="header__logo">
+				<img src="css/images/basic/logo.jpg" alt="logo">
+			</div><!-- /.header__logo -->
+			<div class="header__account">
+				<ul>
+					<li class="btn-search">
+						<a href="#"><i class="fas fa-search"></i></a>
+					</li>
+					
+					<li><a href="#" id="login"><i class="far fa-user login-ico"></i></a>
+						<div class="login-dropdown">
+							<div class="login-header">
+								<div class="cols">
+									<div class="col-1"><i class="fas fa-chevron-right"></i></div><!-- /.col-2 -->
+									
+									<div class="col-7">
+										<p class="login-heading">Sign in</p><!-- /.login-heading -->
+									</div><!-- /.col-6 -->
+									<div class="col-4"></div><!-- /.col-4 -->
+								</div><!-- /.cols -->
+							</div><!-- /.login-header -->
+							<div class="login-body">
+								<div class="login-container">
+									<div class="login-form">
+										<input type="text" placeholder="Email">
+										<input type="password" placeholder="Pasword">
+										<a href="#" class="forgotten">FORGOT YOUR PASSWORD?</a>
+										<a href="#" class="btn btn--form">SIGN IN <i class="fas fa-arrow-right"></i></a>
+									</div><!-- /.login-form -->
+								</div><!-- /.login-container -->
+							</div><!-- /.login-body -->
+							<div class="login-footer">
+								<div class="login-container">
+									<a href="create-account.html" class="no-account">NO ACCOUNT? CREATE ONE HERE</a>
+									<div class="login-socials">
+										<a href="#" class="facebook">FACEBOOK</a>
+										<a href="#" class="google">GOOGLE</a>
+										<a href="#" class="twitter">TWITTER</a>
+									</div><!-- /.login-socials -->
+								</div><!-- /.login-container -->
+							</div><!-- /.login-footer -->
+						</div><!-- /.login -->
+					</li>
+					
+					<li><a href="#" id="btnCart"><i class="fas fa-shopping-cart"></i></a>
+					<div class="cart-count">0</div><!-- /.cart-count -->
+					</li>
+				</ul>
+			</div><!-- /.header__account -->
+
+		</div><!-- /.header__helper -->
+		<div class="header__logo-mobile">
+				<img src="css/images/basic/logo.jpg" alt="logo">
+			</div><!-- /.header__logo-mobile -->
+		<div class="header__navbar">
+			<ul class="nav">
+				<li class="nav-item hoverable-item hover-bikes" id="hoverBikes">
+					Bikes <i class="fas fa-angle-right"></i>
+					<div class="dropdown-menu dropdown-bikes">
+						
+						<ul>
+							<li>
+								<span class="menu-heading">Types</span>
+							</li>
+
+							<li>
+								<a href="#">City Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Cyclocross Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Commuter Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Endurance Road Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Flat Bar Road Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Track Racing Bikes</a>
+							</li>
+							<li>
+								<a href="#">Kid's BMX Bikes</a>
+							</li>
+						</ul>
+
+						<ul>
+							<li>
+								<span class="menu-heading">All Manufactures</span>
+							</li>
+
+							<li>
+								<a href="#">Bell</a>
+							</li>
+							
+							<li>
+								<a href="#">Cinelli</a>
+							</li>
+							
+							<li>
+								<a href="#">Felt</a>
+							</li>
+							
+							<li>
+								<a href="#">Hercules</a>
+							</li>
+							
+							<li>
+								<a href="#">GT</a>
+							</li>
+							
+							<li>
+								<a href="#">Firefox</a>
+							</li>
+							
+							<li>
+								<a href="#">Ridley</a>
+							</li>
+							
+							<li>
+								<a href="#">Surly</a>
+							</li>
+						</ul>
+					</div><!-- /.dropdown-menu dropdown-bikes -->
+				</li>
+				
+				<li class="nav-item hoverable-item hover-parts" id="hoverParts">
+					Bike Parts <i class="fas fa-angle-right"></i>
+					<div class="dropdown-menu dropdown-parts">
+						<ul>
+							<li>
+								<a href="#">Commuter Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Endurance Road Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Track Racing Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Kid's Road Bikesa</a>
+							</li>
+							
+							<li>
+								<a href="#">Race BMX Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Park BMX Bikes</a>
+							</li>
+
+							<li>
+								<a href="#">Downhill Mountain Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Tires and Wheels</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Dirt Jump Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Sport Mountain Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Fat Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Hooks and handlebars</a>
+							</li>
+							
+							<li>
+								<a href="#">Clothes</a>
+							</li>
+							
+							<li>
+								<a href="#">Tires and Wheels</a>
+							</li>
+
+							<li>
+								<a href="#">Endurance Road Bikes</a>
+							</li>
+							
+							<li>
+								<a href="#">Cyclocross Bikes</a>
+							</li>
+						</ul>
+					</div><!-- /.dropdown-menu dropdown-parts -->
+				</li>
+				
+				<li class="nav-item" id="apparelLink">Accessories &amp; Components</li>
+				
+				<li class="nav-item" id="apparelLink">Apparel</li>
+				
+				<li class="nav-item" id="link-sale">Sale</li>
+			</ul><!-- /.nav -->
+		</div><!-- /.header__navbar -->
+	</header><!-- /#header.header -->
+
+	<div class="home__intro">
+
+		<div class="slide slide-1 active-list">
+			<div class="home__intro-text home--green">
+				<h1><span class="thiner">MEET OUR NEW</span></h1>
+				<h1>GEOMETRY &amp; GEARING</h1>
+				<p>Let's face it: the most glarious gravel rides aren't always glamorous, and the grittiest adventures requires extra gear.</p>
+				<a href="#" class="btn btn--lg">DISCOVER NOW <i class="fas fa-arrow-right"></i></a>
+				<div class="gadget"></div><!-- /.gadget -->
+				<div class="home__intro-numbers">
+					<ul class="ulNumbers">
+						<li class="liNumber active-number">01</li>
+						
+						<li class="liNumber">02</li>
+						
+						<li class="liNumber">03</li>
+					</ul>
+				</div><!-- /.home__intro-numbers -->
+			</div><!-- /.home__intro-text -->
+			<div class="home__intro-img">
+				<img src="css/images/basic/mountainbike-3.png" alt="mountainbike">
+			</div><!-- /.home__intro-img -->
+		</div><!-- /.slide slide-1 -->
+
+		<div class="slide slide-2">
+			<div class="home__intro-text home--yellow">
+				<h1><span class="thiner">CROSS COUNTRY</span></h1>
+				<h1>MOUNTAIN BIKES</h1>
+				<p>No surprise that our mountain bikes are the most technologically advanced on the market.</p>
+				<a href="#" class="btn btn--lg">DISCOVER NOW <i class="fas fa-arrow-right"></i></a>
+				<div class="gadget"></div><!-- /.gadget -->
+				<div class="home__intro-numbers">
+					<ul>
+						<li class="liNumber">01</li>
+						
+						<li class="liNumber active-number">02</li>
+						
+						<li class="liNumber">03</li>
+					</ul>
+				</div><!-- /.home__intro-numbers -->
+			</div><!-- /.home__intro-text -->
+			<div class="home__intro-img">
+				<img src="css/images/basic/mountainbike-2.png" alt="mountainbike">
+			</div><!-- /.home__intro-img -->
+		</div><!-- /.slide slide-2 -->
+
+		<div class="slide slide-3">
+			<div class="home__intro-text home--blue">
+				<h1><span class="thiner">CHOOSE YOUR</span></h1>
+				<h1>GEOMETRY &amp; GEARING</h1>
+				<p>No surprise that our mountain bikes are the most technologically advanced on the market.</p>
+				<a href="#" class="btn btn--lg">DISCOVER NOW <i class="fas fa-arrow-right"></i></a>
+				<div class="gadget"></div><!-- /.gadget -->
+				<div class="home__intro-numbers">
+					<ul>
+						<li class="liNumber">01</li>
+						
+						<li class="liNumber">02</li>
+						
+						<li class="liNumber active-number">03</li>
+					</ul>
+				</div><!-- /.home__intro-numbers -->
+			</div><!-- /.home__intro-text -->
+			<div class="home__intro-img">
+				<img src="css/images/basic/mountainbike-1.png" alt="mountainbike">
+			</div><!-- /.home__intro-img -->
+		</div><!-- /.slide slide-3 -->
+
+	</div><!-- /.home__intro -->
+
+	<section class="section partners">
+		<div class="partners__container">
+			<img src="css/images/partners/bell.jpg" alt="bell">
+
+			<img src="css/images/partners/surly.jpg" alt="surly">
+
+			<img src="css/images/partners/firefox.png " alt="firefox">
+
+			<img src="css/images/partners/gt.jpg" alt="gt">
+
+			<img src="css/images/partners/ridley.jpg" alt="ridley">
+
+			<img src="css/images/partners/cinelli.jpg" alt="cinelli">
+
+			<img src="css/images/partners/hercules.png" alt="hercules">
+
+			<img src="css/images/partners/felt.jpg" alt="felt">
+
+		</div><!-- /.partners__container -->
+	</section><!-- /.section partners -->
+
+	<section class="section" id="hotProducts">
+		<h2>Hot Products</h2>
+
+		<div class="hottest-items">
+			
+			<div class="item" id="bellHelmet" data-name='bellsolarbikehelmet' data-price='16.00'>
+						<div class="item--head">
+							<div class="item-images">
+								<img src="css/images/shop/helmet1.jpg" alt="helmet">
+								<img src="css/images/shop/helmet2.jpg" alt="helmet">
+							</div>
+
+							<div class="item--specs">
+								<span class="onsale">on sale!</span>
+								<span class="new">new</span>
+							</div><!-- /.item-/-specs -->
+						</div><!-- /.item-/-head -->
+						<div class="item--content-mq">
+							<div class="item--body">
+								<div class="item--hover">
+										<i class="fas fa-shopping-cart"></i>
+									<div class="aligned-right">
+										<i class="far fa-heart"></i>
+									</div><!-- /.aligned-right -->
+								</div><!-- /.item-/-hover -->
+								
+								<div class="item--body-text">
+									<h4>Bike Helmet</h4>
+									<div class="prices">
+										<span class="bold">₹<span class="ui-price">1600</span></span>
+										<span class="old-price">₹2000.00</span>
+										<span class="discount">-20%</span>
+									</div><!-- /.prices -->
+								</div><!-- /.item-/-body-text -->
+							</div><!-- /.item-/-body -->
+							<div class="item--footer">
+								<a href="#" class="btn btn--lg btn--rev">ADD TO CART +</a>
+								<div class="footer--socials">
+									
+									<a href="#"><i class="far fa-heart"></i></a>
+									
+									<a href="#" class="shopping-on-mq"><i class="fas fa-shopping-cart"></i></a>
+								</div><!-- /.footer-socials -->
+							</div><!-- /.item-footer -->
+						</div><!-- /.item-/-horizontal-mq -->
+					</div><!-- /.item -->
+
+					<div class="item" id="firefox" data-name='firefoxmountainbike' data-price='264.00'>
+						<div class="item--head">
+							<div class="item-images">
+								<img src="css/images/shop/firefox2.jpg" alt="firefox">
+								<img src="css/images/shop/firefox1.jpg" alt="firefox">
+							</div>
+
+							<div class="item--specs">
+								<span class="onsale">on sale!</span>
+								<span class="new">new</span>
+							</div><!-- /.item-/-specs -->
+						</div><!-- /.item-/-head -->
+						<div class="item--content-mq">
+							<div class="item--body">
+								<div class="item--hover">
+									<i class="fas fa-shopping-cart"></i>
+									<div class="aligned-right">
+										<i class="far fa-heart"></i>
+									</div><!-- /.aligned-right -->
+								</div><!-- /.item-/-hover -->
+								
+								<div class="item--body-text">
+									<h4>Firefox Mountain Bike</h4>
+									<div class="prices">
+										<span class="bold">₹<span class="ui-price">19,800</span></span>
+										<span class="old-price">₹24,750.00</span>
+										<span class="discount">-20%</span>
+									</div><!-- /.prices -->
+								</div><!-- /.item-/-body-text -->
+							</div><!-- /.item-/-body -->
+							<div class="item--footer">
+								<a href="#" class="btn btn--lg btn--rev">ADD TO CART +</a>
+								<div class="footer--socials">
+									
+									<a href="#"><i class="far fa-heart"></i></a>
+									
+									<a href="#" class="shopping-on-mq"><i class="fas fa-shopping-cart"></i></a>
+								</div><!-- /.footer-socials -->
+							</div><!-- /.item-footer -->
+						</div>
+					</div><!-- /.item -->
+
+					<div class="item" id="hercules" data-name='hercules' data-price='320.00'>
+						<div class="item--head">
+							<div class="item-images">
+								<img src="css/images/shop/herculese2.jpg" alt="hercules">
+								<img src="css/images/shop/herculese1.jpg" alt="hercules">
+							</div>
+
+							<div class="item--specs">
+								<span class="onsale">on sale!</span>
+								<span class="new">new</span>
+							</div><!-- /.item-/-specs -->
+						</div><!-- /.item-/-head -->
+						<div class="item--content-mq">
+							<div class="item--body">
+								<div class="item--hover">
+									<i class="fas fa-shopping-cart"></i>
+									<div class="aligned-right">
+										
+										<i class="far fa-heart"></i>
+									</div><!-- /.aligned-right -->
+								</div><!-- /.item-/-hover -->
+								
+								<div class="item--body-text">
+									<h4>Hercules Road Bike</h4>
+									<div class="prices">
+										<span class="bold">₹<span class="ui-price">17,720</span></span>
+										<span class="old-price">₹22,150</span>
+										<span class="discount">-20%</span>
+									</div><!-- /.prices -->
+								</div><!-- /.item-/-body-text -->
+							</div><!-- /.item-/-body -->
+							<div class="item--footer">
+								<a href="#" class="btn btn--lg btn--rev">ADD TO CART +</a>
+								<div class="footer--socials">
+									<a href="#"><i class="fas fa-redo-alt"></i></a>
+									<a href="#"><i class="far fa-heart"></i></a>
+									<a href="#"><i class="fas fa-eye"></i></a>
+									<a href="#" class="shopping-on-mq"><i class="fas fa-shopping-cart"></i></a>
+								</div><!-- /.footer-socials -->
+							</div><!-- /.item-footer -->
+						</div>
+					</div><!-- /.item -->
+
+					<div class="item" id="sportswear" data-name='sportswear' data-price='320.00'>
+							<div class="item--head">
+								<div class="item-images">
+									<img src="css/images/shop/sportswear-1.jpg" alt="sportswear">
+									<img src="css/images/shop/sportswear-2.jpg" alt="sportswear">
+								</div>
+	
+								<div class="item--specs">
+									<span class="onsale">on sale!</span>
+									<span class="new">new</span>
+								</div><!-- /.item-/-specs -->
+							</div><!-- /.item-/-head -->
+							<div class="item--content-mq">
+								<div class="item--body">
+									<div class="item--hover">
+										<i class="fas fa-shopping-cart"></i>
+										<div class="aligned-right">
+											<i class="far fa-heart"></i>
+										</div><!-- /.aligned-right -->
+									</div><!-- /.item-/-hover -->
+									
+									<div class="item--body-text">
+										<h4>Bike Sportswear</h4>
+										<div class="prices">
+											<span class="bold">₹<span class="ui-price">4,005</span></span>
+											<span class="old-price">₹4,450</span>
+											<span class="discount">-10%</span>
+										</div><!-- /.prices -->
+									</div><!-- /.item-/-body-text -->
+								</div><!-- /.item-/-body -->
+								<div class="item--footer">
+									<a href="#" class="btn btn--lg btn--rev">ADD TO CART +</a>
+									<div class="footer--socials">
+										<a href="#"><i class="far fa-heart"></i></a>
+										<a href="#" class="shopping-on-mq"><i class="fas fa-shopping-cart"></i></a>
+									</div><!-- /.footer-socials -->
+								</div><!-- /.item-footer -->
+							</div>
+						</div><!-- /.item -->		
+		</div><!-- /.hottest-items -->
+	</section><!-- /#hotProducts.section -->
+
+	<div class="trek-clickbait">
+		<div class="trek-img">
+			<img src="css/images/basic/trek-divider.jpg" alt="mountain bikers">
+		</div><!-- /.trek-img -->
+		<div class="trek-text">
+			<div class="trek-text-wrapper">
+				<img src="css/images/basic/trek-logo.png" alt="hercules logo">
+				<p>Meet our all-new gravel bike.</p>
+				<a href="#" class="btn btn--lg">SHOP NOW <i class="fas fa-arrow-right"></i></a>
+			</div><!-- /.trek-text-wrapper -->
+		</div><!-- /.trek-text -->
+	</div><!-- /.trek-clickbait -->
+
+	<section class="section" id="latestNews">
+		<h2>Latest News</h2>
+		<div class="latest__blog">
+			<div class="box">
+				<div class="box__head">
+					<div class="box__img" style="background-image: url(css/images/articles/shimano.jpg);">
+						
+					</div><!-- /.box__img -->
+				</div><!-- /.box__head -->
+				<div class="box__body">
+						<div class="date">SEPTEMBER 12, 2019</div><!-- /.date -->
+					<a href="#" class="article__link">NEW HEIGHTS: Himalayan Adventure</a>
+				</div><!-- /.box__body -->
+			</div><!-- /.box -->
+
+			<div class="box">
+				<div class="box__head">
+					<div class="box__img" style="background-image: url(css/images/articles/speed.jpg);">
+						
+					</div><!-- /.box__img -->
+				</div><!-- /.box__head -->
+				<div class="box__body">
+					<div class="date">OCTOBER 12, 2019</div><!-- /.date -->
+					<a href="#" class="article__link">THE QUEST FOR ADRELINE RUSH </a>
+				</div><!-- /.box__body -->
+			</div><!-- /.box -->
+
+			<div class="box">
+				<div class="box__head">
+					<div class="box__img" style="background-image: url(css/images/articles/spring.jpg);">
+						
+					</div><!-- /.box__img -->
+				</div><!-- /.box__head -->
+				<div class="box__body">
+					<div class="date">NOVEMBER 12, 2019</div><!-- /.date -->
+					<a href="#" class="article__link">CLEAN URBAN COMMUTE</a>
+				</div><!-- /.box__body -->
+			</div><!-- /.box -->
+
+		</div><!-- /.latest__blog -->
+	</section><!-- /#latestNews.section -->
+
+	<div id="testimonials">
+		<ul id="slideWrap">
+			<li class="carousel-item carousel-item-1"> 
+				<img src="css/images/basic/rider-1.jpg" alt="rider">
+				<p class="slideText">I loved the service, the range of products and the overall experience has been amazing. 
+					I needed good quality accessories for a sporting event. You guys are real professionals.
+					 I found everything here, in one place. Thanks</p>
+				<p class="rider">- Srinivas</p><!-- /.rider -->
+			</li>
+			<li class="carousel-item carousel-item-2">
+				<img src="css/images/basic/rider-2.jpg" alt="rider">
+				<p class="slideText">I'm very happy with the deal. 
+					RideX has sent everything such as assembly tools, manual and ofcourse the cycle. 
+					It is as same as described in the product details.
+					 Truly satisfied with the bicycle. Highly recommended. 
+					</p>
+				<p class="rider">- Roshni</p><!-- /.rider -->
+			</li>
+			<li class="carousel-item carousel-item-3">
+				<img src="css/images/basic/rider-3.jpg" alt="rider">
+				<p class="slideText">INCREDIBLE customer service and competitive prices. 
+					Standard delivery took over a week. Fit was perfect. Good looking helmet. Top notch. </p>
+				<p class="rider">- Ashish</p><!-- /.rider -->
+			</li>
+		</ul><!-- /#slideWrap -->
+		<a id="prev" class="carousel-prev" href="#"><i class="fas fa-angle-left"></i></a>
+		<a id="next" class="carousel-next" href="#"><i class="fas fa-angle-right"></i></a>
+	</div><!-- /.testimonials -->
+	
+	<div id="modalShoppingCart" class="modal-shopping-cart">
+		<div class="cart-header">
+			<div class="cols">
+				<div class="col-3"><i class="fas fa-chevron-right"></i></div><!-- /.col-3 -->
+				<div class="col-1"></div><!-- /.col-1 -->
+				<div class="col-3">
+					<p class="cart-heading">Cart</p><!-- /.cart-heading -->
+				</div><!-- /.col-3 -->
+				<div class="col-4"></div><!-- /.col-4 -->
+			</div><!-- /.cols -->
+		</div><!-- /.cart-header -->
+		<div class="cart-body">
+			<div class="cart-body-inner">
+				<p class="no-items">The cart is empty</p><!-- /.no-items -->
+			</div><!-- /.cart-body-inner -->
+		</div><!-- /.cart-body -->
+		<div class="cart-footer">
+			<div class="cart-footer-inner">
+				<div class="cols no-gutters">
+					<div class="col-6">Subtotal</div><!-- /.col-6 -->
+					
+					<div class="col-6 col-value">₹<span class="subtotal">0.00</span></div><!-- /.col-6 -->
+				</div><!-- /.cols -->
+				<div class="cols">
+					<div class="col-6">Shipping</div><!-- /.col-6 -->
+					
+					<div class="col-6 col-value">Free</div><!-- /.col-6 -->
+				</div><!-- /.cols -->
+				<div class="cols">
+					<div class="col-6">Taxes</div><!-- /.col-6 -->
+					
+					<div class="col-6 col-value">₹<span class="subtotal">0.00</span></div><!-- /.col-6 -->
+				</div><!-- /.cols -->
+				<div class="cols">
+					<div class="col-6">Total</div><!-- /.col-6 -->
+					
+					<div class="col-6 col-value">₹<span class="subtotal">0.00</span></div><!-- /.col-6 -->
+				</div><!-- /.cols -->
+				<div class="btn-container">
+					<a href="#" class="btn btn--form">PROCEED TO CHECKOUT <i class="fas fa-arrow-right"></i></a>
+				</div><!-- /.btn-container -->
+			</div><!-- /.cart-footer-inner -->
+		</div><!-- /.cart-footer -->
+		<div class="close-modal-shopping"></div><!-- /.close-modal-shopping -->
+	</div><!-- /#modalShoppingCart -->
+
+	<div class="mobile-nav" id="mobileNav">
+		
+		<div class="mobile-nav-wrapper">
+			<div class="header-imp">Hotilne: <span>1800 103 6286</span></div>
+			<div class="language-currency">
+				<div class="select-language">
+					<label for="language">Location:</label>
+					<select name="language">
+					  <option>Delhi</option>
+					  <option>Mumbai</option>
+					  <option>Kolkata</option>
+					  <option>Hyderabad</option>
+					  <option>Bangalore</option>
+					</select>
+				</div>
+				<div class="select-currency">
+					<label for="currency">Theme:</label>
+					<select name="currency">
+						<option class="active">RideX</option>
+						<option value="gbp">Dark</option>
+					</select>
+				</div><!-- /.select-currency -->
+			</div><!-- /.language-currency -->
+
+			<ul class="mobile-nav-links">
+				<li class="mobile-item mobile-item-with-dropdown">
+					<a href="#" class="mobile-link mobile-link-flex">
+						<div>Bikes</div>
+						<div><i class="fas fa-angle-down"></i></div>
+					</a>
+					<div class="mobile-nav-dropdown">
+						
+						<div class="mobile-nav-box">
+							<a href="#" class="dropdown-active mobile-nav-item">Types</a>
+							
+							<a href="#" class="mobile-nav-item">City Bikes</a>
+							
+							<a href="#" class="mobile-nav-item">Commuter Bikes</a>
+							
+							<a href="#" class="mobile-nav-item">Cyclocross Bikes</a>
+							
+							<a href="#" class="mobile-nav-item">Endurance Road Bikes</a>
+							
+							<a href="#" class="mobile-nav-item">Flat Bar Road Bikes</a>
+
+							<a href="#" class="mobile-nav-item">Track Racing Bikes</a>
+
+							<a href="#" class="mobile-nav-item">Kid's BMX Bikes</a>
+						</div><!-- /.mobile-nav-box -->
+
+						<div class="mobile-nav-box">
+							<a href="#" class="dropdown-active mobile-nav-item">All manufactures</a>
+							
+							<a href="#" class="mobile-nav-item">Bell</a>
+							
+							<a href="#" class="mobile-nav-item">Cinelli</a>
+							
+							<a href="#" class="mobile-nav-item">Felt</a>
+							
+							<a href="#" class="mobile-nav-item">Hercules</a>
+							
+							<a href="#" class="mobile-nav-item">GT</a>
+
+							<a href="#" class="mobile-nav-item">Firefox</a>
+
+							<a href="#" class="mobile-nav-item">Ridley</a>
+							
+							<a href="#" class="mobile-nav-item">Surly</a>
+						
+						</div><!-- /.mobile-nav-box -->
+					</div><!-- /.mobile-nav-dropdown -->
+				</li><!-- /.mobile-item -->
+				
+				<li class="mobile-item mobile-item-with-dropdown">
+					<a href="#" class="mobile-link mobile-link-flex">
+						<div>Bike Parts</div>
+						<div><i class="fas fa-angle-down"></i></div>
+					</a>
+					<div class="mobile-nav-dropdown">
+						<div class="mobile-nav-box">
+							<a href="#" class="mobile-nav-item dropdown-active">Commuter Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Endurance Road Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Track Racing Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Kid's Road Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Race BMX Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Park BMX Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Downhill Mountain Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Tires and Wheels</a>
+						</div><!-- /.mobile-nav-box -->
+						<div class="mobile-nav-box">
+							<a href="#" class="mobile-nav-item dropdown-active">Dirt Jump Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Fat Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Sport Mountain Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Clothes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Hooks and handlebars</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Tires and Wheels</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Endurance Road Bikes</a>
+							
+							<a href="#" class="mobile-nav-item dropdown-active">Cyclocross Bikes</a>
+						</div><!-- /.mobile-nav-box -->
+					</div><!-- /.mobile-nav-dropdown -->
+				</li><!-- /.mobile-item -->
+				
+				<li class="mobile-item">
+					<a href="accessories.html" class="mobile-link">Accessories &amp; Components</a>
+				</li><!-- /.mobile-item -->
+				
+				<li class="mobile-item">
+					<a href="apparel.html" class="mobile-link">Apparel</a>
+				</li><!-- /.mobile-item -->
+				
+				<li class="mobile-item">
+					<a href="sales.html" class="mobile-link mobile-link-active">Sale</a>
+				</li><!-- /.mobile-item -->
+			</ul><!-- /.mobile-nav-links -->
+
+		</div><!-- /.mobile-nav-wrapper -->
+	</div><!-- /.mobile-nav -->
+
+
+	<footer class="footer" id="footer">
+		
+			<p class="newsletter--heading">Join Our Newsletter</p>
+			<div class="newsletter">
+				<input type="text" placeholder="Enter your email address">
+				<a href="#" class="btn--newsletter">SUBSCRIBE</a>
+			</div><!-- /.newsletter -->
+	
+			<div class="footer__links">
+				<div class="cols">
+					<div class="col-2">
+						<li><a href="#">Shop by Bike Type</a></li>
+						
+						<li><a href="#">Bike Parts</a></li>
+						
+						<li><a href="#">Bike Tools</a></li>
+						
+						<li><a href="#">Clothes</a></li>
+						
+						<li><a href="#">Accessories</a></li>
+						
+					</div><!-- /.col-2 -->
+					<div class="col-2">
+						
+						<li><a href="#">Terms and conditions</a></li>
+						
+						<li><a href="#">About us</a></li>
+						
+						<li><a href="#">Secure Payment</a></li>
+						
+						<li><a href="#">Warranty</a></li>
+						
+						<li><a href="#">FAQs</a></li>
+						
+						<li id="lookbookLink"><a href="lookbook.html"></a></li>
+					</div><!-- /.col-2 -->
+					<div class="col-2">
+						<li><a href="#">Personal Info</a></li>
+						
+						<li><a href="#">Orders</a></li>
+						
+						<li><a href="#">Credit Slips</a></li>
+						
+						<li><a href="#">Adresses</a></li>
+						
+						<li><a href="#">My Wishlist</a></li>
+					</div><!-- /.col-2 -->
+					<div class="col-1"></div><!-- /.col-1 -->
+					<div class="col-3 footer-style">
+						<a href="#" class="col--heading">RideX HQ</a>
+						<ul>
+							<li><i class="fas fa-map-marker"></i><span class="text">Sector 3, HSR Layout,Bangalore</span></li>
+							
+							<li><i class="fas fa-mobile-alt"></i><span class="text">0123-456-789</span></li>
+							
+							<li><i class="fas fa-envelope"></i><span class="text"><a href="#" class="link">info@ridex.com</a></span></li>
+						</ul>
+					</div><!-- /.col-3 -->
+					<div class="col-2 footer-style">
+						<a href="#" class="col--heading">Follow Us</a>
+						<ul id="socials">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						
+						</ul>
+					</div><!-- /.col-2 -->
+				</div><!-- /.cols -->
+			</div><!-- /.footer__links -->
+	
+			<!-- Mobile Footer -->
+			<div class="footer__links-mobile">
+				<!-- Wrapper of all modules/dropdown links -->
+				<div class="modules-wrapper">
+					<!-- Each Module with link + dropdown -->
+					<div class="footer-mobile-module">
+						<a href="#" class="link-module">
+							<div class="module-name">Categories</div> 
+							<div class="module-ico"><i class="fas fa-angle-down"></i></div>
+						</a>
+						<div class="module-dropdown">
+							<a href="#" class="link-dropdown">Shop By Bike Type</a>
+	
+							<a href="#" class="link-dropdown">Bike parts</a>
+	
+							<a href="#" class="link-dropdown">Bike Tools</a>
+	
+							<a href="#" class="link-dropdown">Clothes</a>
+	
+							<a href="#" class="link-dropdown">Accessories</a>
+
+						</div><!-- /.module-dropdown -->
+					</div><!-- /.footer-mobile-module -->
+	
+					<div class="footer-mobile-module">
+						<a href="#" class="link-module">
+							<div class="module-name">Information</div> 
+							<div class="module-ico"><i class="fas fa-angle-down"></i></div>
+						</a>
+						<div class="module-dropdown">
+							<a href="#" class="link-dropdown">Terms and conditions of use</a>
+	
+							<a href="#" class="link-dropdown">About us</a>
+	
+							<a href="#" class="link-dropdown">Secure payment</a>
+	
+							<a href="#" class="link-dropdown">Warranty</a>
+	
+							<a href="#" class="link-dropdown">FAQs</a>
+	
+							<a href="lookbook.html" class="link-dropdown"></a>
+						</div><!-- /.module-dropdown -->
+					</div><!-- /.footer-mobile-module -->
+	
+					<div class="footer-mobile-module">
+						<a href="#" class="link-module">
+							<div class="module-name">Your account</div> 
+							<div class="module-ico"><i class="fas fa-angle-down"></i></div>
+						</a>
+						<div class="module-dropdown">
+							<a href="#" class="link-dropdown">Personal info</a>
+	
+							<a href="#" class="link-dropdown">Orders</a>
+	
+							<a href="#" class="link-dropdown">Credit slips</a>
+	
+							<a href="#" class="link-dropdown">Addresses</a>
+	
+							<a href="#" class="link-dropdown">My wishlist</a>
+						</div><!-- /.module-dropdown -->
+					</div><!-- /.footer-mobile-module -->
+				
+					<div class="footer-mobile-module">
+						<a href="#" class="link-module">
+							<div class="module-name">RideX HQ</div> 
+							<div class="module-ico"><i class="fas fa-angle-down"></i></div>
+						</a>
+						<div class="module-dropdown">
+							<a href="#" class="link-dropdown socials-dropdown">
+								<div class="ico"><i class="fas fa-map-marker"></i></div><!-- /.ico -->
+								<div class="info">Sector 3, HSR Layout,Bangalore</div><!-- /.info -->
+							</a>
+	
+							<a href="#" class="link-dropdown socials-dropdown">
+								<span class="ico"><i class="fas fa-mobile-alt"></i></span>
+								<span class="info">0123-456-78</span>
+							</a>
+	
+							<a href="#" class="link-dropdown socials-dropdown">
+								<span class="ico"><i class="fas fa-envelope"></i></span>
+								<span class="info">info@ridex.com</span>
+							</a>
+	
+						</div><!-- /.module-dropdown -->
+					</div><!-- /.footer-mobile-module -->
+	
+				</div><!-- /.modules-wrapper -->
+	
+			</div><!-- /.footer__links-mobile -->
+		</footer><!-- /#footer.footer -->
+		
+		<script src="js/functions.js"></script>
+	</body>
+	</html>

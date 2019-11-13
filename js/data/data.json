@@ -1,0 +1,51 @@
+[
+	{
+		"title": "Bell Solar Bike Helmet",
+		"src": "css/images/shop/helmet.jpg",
+		"price_bold": "16.00",
+		"price_discount": "20",
+		"price_old": "20.00"
+	},
+	{
+		"title": "Bell Solar Bike gloves",
+		"src": "css/images/shop/gloves.jpg",
+		"price_bold": "11.00",
+		"price_discount": "20",
+		"price_old": "20.00"
+	},
+	{
+		"title": "Cycling Shorts",
+		"src": "css/images/shop/shorts.jpg",
+		"price_bold": "20.00",
+		"price_discount": "20",
+		"price_old": "40.00"
+	},
+	{
+		"title": "Dual Suspension Mountain Bike",
+		"src": "css/images/shop/bike.jpg",
+		"price_bold": "264.00",
+		"price_discount": "20",
+		"price_old": "330.00"
+	},
+	{
+		"title": "Lightweight Aluminum Water Bottle Cage",
+		"src": "css/images/shop/water.jpg",
+		"price_bold": "9.00",
+		"price_discount": "20",
+		"price_old": "15.00"
+	},
+	{
+		"title": "LED Bicycle Light",
+		"src": "css/images/shop/light.jpg",
+		"price_bold": "40.00",
+		"price_discount": "20",
+		"price_old": "50.00"
+	},
+	{
+		"title": "Bicycle Bag With Expandable Mini Panniers",
+		"src": "css/images/shop/bag.jpg",
+		"price_bold": "48.00",
+		"price_discount": "20",
+		"price_old": "60.00"
+	}
+]
