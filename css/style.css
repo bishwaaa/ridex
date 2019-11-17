@@ -1,5 +1,4 @@
-/* ------------------------------------------------------------ *	Universal Helpers
-\* ------------------------------------------------------------ */
+
 .full-height {
   height: 100%; }
 
@@ -54,8 +53,6 @@
 .underlined {
   text-decoration: underline; }
 
-/* ------------------------------------------------------------ *	Project Helpers
-\* ------------------------------------------------------------ */
 .thiner {
   font-weight: 200 !important; }
 
@@ -68,10 +65,6 @@
 .mb-sm {
   margin-bottom: 20px; }
 
-/* ------------------------------------------------------------ *	Basic Colors
-\* ------------------------------------------------------------ */
-/* ------------------------------------------------------------ *	Project Variables
-\* ------------------------------------------------------------ */
 .home__intro .active-list {
   display: block !important; }
 
@@ -317,15 +310,10 @@
   padding: 0 5%;
   color: rgba(0, 0, 0, 0.5); }
 
-
-
-/*LookBook Page*/
-.section-lookbook .lookbook-wrapper {
-  /*Container for the image*/ }
   .section-lookbook .lookbook-wrapper .lookbook-box {
     position: relative;
     cursor: pointer;
-    /*Text inside the image*/ }
+  
     .section-lookbook .lookbook-wrapper .lookbook-box img {
       position: relative; }
     .section-lookbook .lookbook-wrapper .lookbook-box .lookboox-box-caption {
@@ -355,15 +343,14 @@
     .lookbook-wrapper .lookbook-box .lookboox-box-caption p.subtitle {
       font-size: 15px; } }
 
-/*Lookbook Main*/
+
 .section-lookbook-main {
   position: relative;
-  /*Container*/ }
+ }
   .section-lookbook-main .main-lookbook {
     margin: 30px 60px 200px 60px;
     position: relative;
-    /*Caption side(left)*/
-    /*popover onclick triggered*/ }
+  }
     .section-lookbook-main .main-lookbook .background-container {
       position: absolute;
       right: 0;
@@ -388,7 +375,7 @@
           font-size: 18px; }
         .section-lookbook-main .main-lookbook .background-container .text-container .buttons {
           margin-top: 25px;
-          /*Buttons only for Lookbook*/ }
+        }
           .section-lookbook-main .main-lookbook .background-container .text-container .buttons p + p {
             margin-top: 35px; }
           .section-lookbook-main .main-lookbook .background-container .text-container .buttons a.btn--sm {
@@ -508,7 +495,7 @@
     width: 29%;
     margin: 1% 2%; }
     .lookbook-items > .item .item--head {
-      /* Change it on MQ */
+   
       margin-bottom: 30px; }
     .lookbook-items > .item .item--content-mq .item--body .item--body-text a {
       color: #000;
@@ -522,7 +509,7 @@
     width: 21% !important;
     margin: 1% 2%; }
     .lookbook-items > .item .item--head {
-      /* Change it on MQ */
+ 
       margin-bottom: 30px; }
     .lookbook-items > .item .item--content-mq .item--body .item--body-text a {
       color: #000;
@@ -535,14 +522,14 @@
   .lookbook-items > .item {
     width: 46% !important; }
     .lookbook-items > .item .item--head {
-      /* Change it on MQ */
+
       margin-bottom: 00px; } }
 
 @media (max-width: 500px) {
   .lookbook-items > .item {
     width: 100% !important; }
     .lookbook-items > .item .item--head {
-      /* Change it on MQ */
+    
       margin-bottom: 00px; } }
 
 @media (max-width: 1999px) {
@@ -755,12 +742,12 @@
   #latestNews h2 {
     margin-bottom: 6rem; }
 
-/*Page Sales*/
+
 #bestsellers {
   padding: 0 5rem; }
   #bestsellers .cols {
     margin-top: 5rem;
-    /*sale shopping menu*/ }
+    }
     #bestsellers .cols .col-2 .seller--heading {
       font-weight: 600;
       font-size: 1.7rem;
@@ -921,7 +908,6 @@
   .page__secondary .styled-secondary {
     padding: 0 2rem; } }
 
-/*Media Query for Large Screens*/
 @media (min-width: 1300px) {
   .home__intro .slide .home__intro-text .home__intro-numbers {
     left: 30%; } }
@@ -934,15 +920,13 @@
     .section .hottest-items .item .item--body .item--body-text .prices {
       margin-top: 2rem; } }
 
-/*Media Query for Tablets*/
 @media (max-width: 920px) {
-  /*Slider on Home Page*/
+  
   .home__intro .slide .home__intro-img {
     height: 130%; }
     .home__intro .slide .home__intro-img img {
       max-width: 115%;
       height: 85%; }
-  /*Trek Section on Home Page*/
   .trek-clickbait .trek-text-wrapper img {
     height: 80px; }
   .trek-clickbait .trek-text-wrapper p {
@@ -950,9 +934,8 @@
   .trek-clickbait .trek-text-wrapper .btn--lg {
     padding: 2rem 2.5rem; } }
 
-/*Tablet Universal*/
 @media (max-width: 767px) {
-  /*Removing Text From Sliders*/
+
   .home__intro .slide .home__intro-text {
     padding-top: 10rem;
     padding-right: 6rem;
@@ -974,7 +957,7 @@
   .home__intro .slide .gadget {
     opacity: .5;
     left: 10%; }
-  /*Blog Post Each on New Line*/
+
   #latestNews h2 {
     font-size: 25px; }
   .section .latest__blog {
@@ -1026,7 +1009,7 @@
   .section .latest__blog .box .box__head {
     height: 200px; } }
 
-/*Page Stores*/
+
 .section-stores .stores-wrapper {
   margin: 40px 30px; }
   .section-stores .stores-wrapper .store-box + .store-box {
@@ -1098,22 +1081,18 @@
 
 
 
-/*Page Create Account*/
 .section-signup {
-  /*Wrapper for the section*/ }
+   }
   .section-signup .signup-wrapper {
     text-align: center;
     width: 60%;
     margin: 20px 20%;
-    /*Container for the form*/ }
+    }
     .section-signup .signup-wrapper .signup-form {
-      /*Choose between Mr. / Mrs.*/
-      /*Styling all input texts*/
-      /*Sidenote for Birthday*/
-      /*Inputs for Newsletter & Offers*/ }
+      }
       .section-signup .signup-wrapper .signup-form .checkboxes-sex {
         margin-bottom: 10px;
-        /*Selecting only radio inputs*/ }
+       }
         .section-signup .signup-wrapper .signup-form .checkboxes-sex .ml-sm {
           margin-left: 10px; }
         .section-signup .signup-wrapper .signup-form .checkboxes-sex .custom-radio {
@@ -1123,7 +1102,7 @@
           padding-left: 20px;
           color: #000;
           font-size: 14px;
-          /*Original color e5e5e5*/ }
+          }
           .section-signup .signup-wrapper .signup-form .checkboxes-sex .custom-radio input {
             padding: 0;
             position: absolute;
@@ -1215,7 +1194,7 @@
 
 @media (max-width: 600px) {
   .section-signup {
-    /*Wrapper for the section*/ }
+    }
     .section-signup .signup-wrapper {
       width: 80%;
       margin: 20px 10%; }
@@ -1262,8 +1241,7 @@
     font-size: 31px; }
 
 .section-accessories .cols .col-2 {
-  /*Label/Wrapper for each input*/
-  /*All radio buttons for price*/ }
+ }
   .section-accessories .cols .col-2 .heading {
     font-size: 16px;
     margin-top: 25px;
@@ -1303,13 +1281,13 @@
       padding-left: 22px;
       color: #9e9e9e; }
   .section-accessories .cols .col-2 .radio-wrapper {
-    /*Wrapper of each input + text*/ }
+    }
     .section-accessories .cols .col-2 .radio-wrapper .radio-label {
       display: block;
       margin: 15px 0;
       cursor: pointer;
       position: relative;
-      /*Indicator that overlays and its rounded*/ }
+       }
       .section-accessories .cols .col-2 .radio-wrapper .radio-label .custom-control-indicator {
         position: absolute;
         top: 0px;
@@ -1328,21 +1306,18 @@
         padding-left: 12px;
         color: #9e9e9e; }
 
-/*Sitemap Page*/
 .section-sitemap {
-  /*All the content inside*/ }
+ }
   .section-sitemap .sitemap-wrapper {
     margin-top: 30px;
-    /*Each link with dropdown*/
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
     .section-sitemap .sitemap-wrapper .sitemap-head {
       width: 46%;
       margin: 1% 2%;
-      /*The link which is clickable*/
-      /*Active class on dropdown*/
-      /*Dropdown*/ }
+       }
       .section-sitemap .sitemap-wrapper .sitemap-head .sitemap-link {
         color: #000;
         font-size: 17px;
@@ -1375,15 +1350,15 @@
         text-align: left;
         padding: 0;
         margin: 0;
-        /*For animation*/
+   
         visibility: hidden;
         opacity: 0;
         min-height: 0;
         height: 0;
         transition: all .4s ease;
-        /*Ul with links*/ }
+    }
         .section-sitemap .sitemap-wrapper .sitemap-head .sitemap-dropdown .dropdown-list {
-          /*LI each link*/ }
+          }
           .section-sitemap .sitemap-wrapper .sitemap-head .sitemap-dropdown .dropdown-list .dropdown-item {
             margin: 10px 0; }
             .section-sitemap .sitemap-wrapper .sitemap-head .sitemap-dropdown .dropdown-list .dropdown-item a {
@@ -1397,10 +1372,6 @@
     width: 100%;
     margin: 1% 0; } }
 
-
-
-/* ------------------------------------------------------------ *	Popover
-\* ------------------------------------------------------------ */
 .popover {
   background-color: #fff;
   display: flex;
@@ -1495,8 +1466,6 @@ img {
   max-width: 100%;
   height: auto; }
 
-/* ------------------------------------------------------------ *	Universal Typography 
-\* ------------------------------------------------------------ */
 h1 {
   font-size: 4rem;
   font-weight: 500; }
@@ -1520,15 +1489,10 @@ h5 {
 h6 {
   font-size: 19px;
   font-weight: 600; }
-
-/* ------------------------------------------------------------ *	Project Typography
-\* ------------------------------------------------------------ */
-/* ------------------------------------------------------------ *	Header
-\* ------------------------------------------------------------ */
 .header {
   position: relative;
-  /*Mobile Logo for Mobile*/
-  /*Mobile Header for Mobile*/ }
+ }
+    
   .header .header__logo-mobile {
     display: none;
     text-align: center; }
@@ -1548,7 +1512,7 @@ h6 {
   }
   .header .header__helper {
     display: flex;
-    /*justify-content: space-between;*/
+   
     align-items: center;
     padding: 3rem 4rem; }
     .header .header__helper .header__options,
@@ -1618,7 +1582,7 @@ h6 {
         list-style: none;
         box-shadow: 0 0.3125rem 2.6875rem rgba(0, 0, 0, 0.11);
         transition: all .4s ease;
-        /*For Animation On Click*/
+       
         visibility: hidden;
         opacity: 0; }
         .header .header__helper .header__options .options-dropdown li a {
@@ -1672,10 +1636,10 @@ h6 {
           width: 35vw;
           border-top: 1px solid #000000;
           z-index: 10;
-          /*For animation*/
+         
           visibility: hidden;
           opacity: 0;
-          /*Arrow Before Dropdown*/ }
+          }
           .header .header__helper .header__account ul li .login-dropdown .login-header {
             position: relative;
             width: 100%;
@@ -1777,7 +1741,7 @@ h6 {
       justify-content: center;
       color: #fff;
       align-items: center;
-      /* Link item from nav*/ }
+       }
       .header .header__navbar .nav .nav-item + .nav-item {
         margin-left: 28px; }
       .header .header__navbar .nav .hover-bikes:before,
@@ -1792,7 +1756,7 @@ h6 {
         border-right: 10px solid transparent;
         border-bottom: 10px solid #fff;
         transition: all .4s;
-        /*For Animation*/
+       
         opacity: 0;
         visibility: hidden; }
       .header .header__navbar .nav .nav-item {
@@ -1800,8 +1764,7 @@ h6 {
         font-size: 13px;
         cursor: pointer;
         transition: all .4s;
-        /*Arrow from FontAwesome*/
-        /*Dropdown on Hover*/ }
+     }
         .header .header__navbar .nav .nav-item svg {
           margin-top: 2px;
           margin-left: 5px;
@@ -1809,7 +1772,7 @@ h6 {
         .header .header__navbar .nav .nav-item:hover {
           color: #C0DE01; }
           .header .header__navbar .nav .nav-item:hover svg {
-            /*Rotating the arrow on hover*/
+        
             transform: rotateZ(-90deg); }
         .header .header__navbar .nav .nav-item .dropdown-menu {
           position: absolute;
@@ -1822,7 +1785,7 @@ h6 {
           text-align: left;
           cursor: default;
           transition: all .4s;
-          /*For animation*/
+        
           opacity: 0;
           visibility: hidden; }
           .header .header__navbar .nav .nav-item .dropdown-menu a {
@@ -1867,17 +1830,14 @@ h6 {
         opacity: 1;
         visibility: visible; }
 
-/* Media Query for Large Desktop*/
 @media (min-width: 1600px) {
   .header .header__helper .header__account ul li .login-dropdown:before {
     right: 9.7%; } }
 
-/* Media Query for Extra Large Desktop*/
 @media (min-width: 1850px) {
   .header .header__helper .header__account ul li .login-dropdown:before {
     right: 8.7%; } }
 
-/* Media Query for Extra Large Desktop*/
 @media (max-width: 1100px) {
   .header .header__helper .header__account ul li .login-dropdown:before {
     right: 15%; } }
@@ -1894,15 +1854,14 @@ h6 {
   .section.partners .partners__container img {
     width: 20%; } }
 
-/*Tablet Universal*/
 @media (max-width: 767px) {
   .header {
-    /*Mobile Number for Mobile Only*/ }
+   }
     .header .header-mobile-contact {
       display: block; }
     .header .header__helper {
       padding: 15px 30px;
-      /*Removing Desktop Logo */ }
+   }
       .header .header__helper .header__logo {
         display: none; }
       .header .header__helper .header__options .currency,
@@ -2041,7 +2000,6 @@ h6 {
     .footer .footer__links .cols .footer-style .col--heading:hover {
       color: #C0DE01; }
 
-/*Media Query for Tablet*/
 @media (max-width: 920px) {
   .footer {
     font-size: 110%; }
@@ -2062,13 +2020,11 @@ h6 {
       max-width: 33.33%;
       text-align: center; } }
 
-/*Tablet Universal*/
 @media (max-width: 767px) {
   .footer {
     padding: 4rem 10rem 4rem 10rem;
     overflow: hidden;
-    /*Hiding Desktop Menu*/
-    /*Mobile Menu*/ }
+ }
     .footer .newsletter {
       width: 100%;
       margin-bottom: 3rem; }
@@ -2076,15 +2032,13 @@ h6 {
       display: none; }
     .footer .footer__links-mobile {
       display: block;
-      /*Wrapper for all Dropdown Links*/ }
+      }
       .footer .footer__links-mobile a {
         color: #fff; }
       .footer .footer__links-mobile .footer-mobile-module {
         width: 100%;
         margin-bottom: 15px;
-        /*Each dropdown link*/
-        /*For open modul triggered by click*/
-        /*Each Dropdown List*/ }
+        }
         .footer .footer__links-mobile .footer-mobile-module a.link-module {
           display: flex;
           justify-content: space-between;
@@ -2118,8 +2072,6 @@ h6 {
               margin-right: 10px;
               color: #fff; } }
 
-/* ------------------------------------------------------------ *	Grid 
-\* ------------------------------------------------------------ */
 .cols {
   display: flex;
   flex-wrap: wrap;
@@ -2392,7 +2344,7 @@ h6 {
   #registerLink {
     width: 90%; } }
 
-/*  Modals  */
+
 .shopping-open {
   visibility: visible !important;
   opacity: 1 !important;
@@ -2413,8 +2365,7 @@ h6 {
   opacity: 0;
   transition: all .5s;
   transform: translateX(100%);
-  /*cart header - name + icon*/
-  /*Arrow for closing the modal*/ }
+  }
   .modal-shopping-cart .cart-header {
     position: relative;
     width: 100%;
@@ -2491,7 +2442,7 @@ h6 {
   .mobile-nav-active {
     width: 60vw !important; } }
 
-/*Modal Mobile Nav*/
+
 .mobile-nav {
   border-top: 1px solid #000;
   width: 52vw;
@@ -2502,15 +2453,15 @@ h6 {
   background-color: #fff;
   z-index: 1000;
   overflow: scroll;
-  /*For Animation*/
+
   visibility: hidden;
   opacity: 0;
   width: 0;
   transition: all .6s ease;
-  /*display: none;*/ }
+ }
   .mobile-nav .mobile-nav-wrapper {
     padding: 20px 20px 0 20px;
-    /*Wrapper for all links*/ }
+ }
     .mobile-nav .mobile-nav-wrapper .language-currency {
       display: flex;
       justify-content: space-between; }
@@ -2552,12 +2503,9 @@ h6 {
     .mobile-nav .mobile-nav-wrapper .mobile-nav-links {
       width: 95%;
       margin-top: 25px;
-      /*Wrapper for li item*/ }
+  }
       .mobile-nav .mobile-nav-wrapper .mobile-nav-links .mobile-item {
-        /*anchor tag*/
-        /*With arrow*/
-        /*Active color*/
-        /*Syling for the dropdown*/ }
+         }
         .mobile-nav .mobile-nav-wrapper .mobile-nav-links .mobile-item .mobile-link {
           color: #000;
           font-size: 14px; }
@@ -2571,7 +2519,7 @@ h6 {
           color: #C0DE01 !important; }
         .mobile-nav .mobile-nav-wrapper .mobile-nav-links .mobile-item .mobile-dropdown-active {
           margin-top: 5px !important;
-          /*padding: 0; */
+      
           height: auto !important;
           max-height: 3000px !important;
           visibility: visible !important;
@@ -2580,7 +2528,7 @@ h6 {
           display: flex;
           flex-wrap: wrap;
           margin-top: 8px;
-          /*For Animation*/
+  
           margin: 0;
           visibility: hidden;
           opacity: 0;
@@ -2592,8 +2540,7 @@ h6 {
             margin-bottom: 20px;
             display: flex;
             flex-direction: column;
-            /*Giving extra space for each first box*/
-            /*Styling the link*/ }
+             }
             .mobile-nav .mobile-nav-wrapper .mobile-nav-links .mobile-item .mobile-nav-dropdown .mobile-nav-box:nth-child(2n-7) {
               padding-right: 15px; }
             .mobile-nav .mobile-nav-wrapper .mobile-nav-links .mobile-item .mobile-nav-dropdown .mobile-nav-box .mobile-nav-item {
@@ -2816,7 +2763,7 @@ h6 {
       visibility: visible;
       opacity: 1; }
 
-/*Aligning item to the horizontal list*/
+
 .item-horizontal {
   width: 100% !important;
   display: flex;
@@ -2860,12 +2807,12 @@ h6 {
       .item-horizontal .item--footer .footer--socials .shopping-on-mq {
         display: none; }
   .item-horizontal:hover {
-    /*Clearing hover effect from Grid View*/ }
+    }
     .item-horizontal:hover .item--hover {
       visibility: hidden !important;
       opacity: 0 !important; }
 
-/*  Closing the div with horizontal list view  */
+
 @media (min-width: 1200px) {
   .item {
     width: 30%; }
@@ -2891,7 +2838,7 @@ h6 {
     position: relative; }
     .item--head img {
       height: 250px; }
-  /*Horizontal Item View*/
+  
   .item-horizontal {
     padding-bottom: 25px; }
     .item-horizontal .item--head {
@@ -2934,7 +2881,7 @@ h6 {
       padding-top: 6rem; }
       .item .item--body .item--body-text .prices {
         margin-top: 3rem; }
-  /*Horizontal Item View*/
+  
   .item-horizontal .item--head {
     width: 30%; }
   .item-horizontal .item--content-mq {
